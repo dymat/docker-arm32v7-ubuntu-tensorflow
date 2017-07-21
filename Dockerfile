@@ -1,4 +1,4 @@
-FROM arm32v7/ubuntu
+FROM arm32v7/ubuntu:14.04
 
 RUN 	apt-get update && \
 	apt-get upgrade -y && \
